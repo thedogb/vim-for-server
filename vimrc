@@ -1,12 +1,11 @@
 "==========================================
-" ProjectLink: https://github.com/wklken/vim-for-server
-" Author:  wklken
+" ProjectLink: https://github.com/thedogb/vim-for-server
+" Folk:  wklken
 " Version: 0.2
-" Email: wklken@yeah.net
-" BlogPost: http://www.wklken.me
-" Donation: http://www.wklken.me/pages/donation.html
+" Email: thedogainchina@gmail.com
+" BlogPost: https://thedogblife.blogspot.com/
 " ReadMe: README.md
-" Last_modify: 2015-07-07
+" Last_modify: 2017-11-25
 " Desc: simple vim config for server, without any plugins.
 "==========================================
 
@@ -55,7 +54,7 @@ set scrolloff=7                 " keep 3 lines when scrolling
 " show
 set ruler                       " show the current row and column
 set number                      " show line numbers
-set nowrap
+" set nowrap                    " no auto wrap
 set showcmd                     " display incomplete commands
 set showmode                    " display current modes
 set showmatch                   " jump to matches when entering parentheses
@@ -240,7 +239,7 @@ map Y y$
 
 "Map ; to : and save a million keystrokes
 " ex mode commands made easy 用于快速进入命令行
-nnoremap ; :
+" nnoremap ; :
 
 " save
 cmap w!! w !sudo tee >/dev/null %
